@@ -12,3 +12,16 @@ R - React: Chosen as the client-side framework for building the user interface o
 N - Node.js: Used as the runtime environment for executing the Express.js server.
 Key Accomplishments
 Order Page: A basic order page was created, laying the groundwork for future order management features.
+
+
+Milestone 2:
+Setting up of the frontend with following commands and packages
+
+tailwind CSS
+React (npm create vite@latest frontend)
+setting up of the backend with following commands and packages npm init || npm init -y
+
+express (npm i express)
+mongoose (npm i mongoose)
+cors (npm i cors)
+nodemon (npm i nodemon)
