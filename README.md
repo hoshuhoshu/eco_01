@@ -1,27 +1,80 @@
-# eco_01
+# E--commerce-website
 
-E-commerce Project - Milestone 1
-This document outlines the progress made in Milestone 1 of our e-commerce project. This milestone focused on setting up the basic MERN (MongoDB, Express.js, React, Node.js) stack and creating a foundational order page.
+****
+## Milestone 1: Project Overview-
 
-MERN Stack Demonstration
-This milestone successfully demonstrated the integration of the MERN stack:
+In this milestone, we demonstrated the working of MERN Stack. And by using the MERN stack we are going to bulid an e-commerce website
 
-M - MongoDB: Used as the database to store application data.
-E - Express.js: Implemented as the API, acting as an intermediary between the client (React) and the server (Node.js).
-R - React: Chosen as the client-side framework for building the user interface of the application.
-N - Node.js: Used as the runtime environment for executing the Express.js server.
-Key Accomplishments
-Order Page: A basic order page was created, laying the groundwork for future order management features.
+Which is,
+
+**M - MongoDB** - Used to handle databases
+
+**E - Express.js** -  Used to easily handle severs
+
+**R - React.js** - Used for frontedend
+
+**N - Node.js** - Used with express.js for server handling
+
+### **Project Features :- **
+
+#### **Pages**
+1. **Authentication**
+   - Login / Signup functionality.
+   - User validation and session management.
+
+2. **Product Page**
+   - Displays all available products.
+   - Allows users to view product details.
+
+3. **Orders Page**
+   - Lists all orders made by the user.
+   - Displays order history and details.
+
+4. **Payment Gateway**
+   - Integrates a secure payment system.
+   - Handles transactions seamlessly.
+****
 
 
-Milestone 2:
-Setting up of the frontend with following commands and packages
 
-tailwind CSS
-React (npm create vite@latest frontend)
-setting up of the backend with following commands and packages npm init || npm init -y
+## Milestone 2: Project Overview - 
 
-express (npm i express)
-mongoose (npm i mongoose)
-cors (npm i cors)
-nodemon (npm i nodemon)
+In this milestone we learned how to setup a development enviroment for a backend project and also started with making Basic UI for Login page.-
+
+Key Learnings - 
+
+- Learned tailwind css for login page UI
+- Learned to setup basic tools used in backend like -
+  -  express
+  -  mongoose
+  -  dotenv
+  -  nodemon
+  -  cookie-parser
+  -  nodemailer etc...
+- And learned Basic react Routing.
+
+****
+
+
+## Milestone 3: Project Overview - 
+
+In this milestone we have learned how to setup basic backend configurations - 
+
+Key learnings -
+
+- Learned how to use express js.
+- Learned how to use the mongodb database and connect it with our server code.
+- Learned to use jsonWebTokens for authentications.
+- And finally learned to effectively handle the errors.
+
+
+## Milestone 4: Project Overview -
+
+In this milestone we learned the following things -
+
+Key learnings - 
+
+- We learned how to use mongoose schema
+- We learned how to install and use multer
+- We learned password hashing using bcrypt
+- And lastly we learned about usage of jsonWebTokens for authentication.
