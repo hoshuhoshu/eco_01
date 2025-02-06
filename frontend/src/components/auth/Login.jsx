@@ -2,21 +2,26 @@ import { React, useState } from "react";
 import { Link } from "react-router-dom";
 import axios from 'axios';
 
+
 const Login = () => {
   const [email, setEmail] = useState("");
   const [password, setPassword] = useState("");
-  const [error,setError] = useState("");
+  const [error,setError] = useState("")
+
 
   const handleSubmit = async(e)=>{
     e.preventDefault();
     try{
-      const response = await axios.post("http://localhost:8000/api/v2/user/login",{email,password});
+      const response = await axios.post("http://localhost:8000/api/v2/user",{email,password});
+
       console.log(response.data)
 
-    }catch(error){
-      setError("Inavlid Credentials!")
+    }
+    catch(error){
+
+      setError("Invalid Credentials!")
       console.error("Login Error",error)
-      
+    
     }
   }
 
