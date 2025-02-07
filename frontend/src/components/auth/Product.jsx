@@ -1,7 +1,7 @@
-import PropTypes, { string } from "prop-types";
+import PropTypes from 'prop-types';
 import {React,useState,useEffect} from 'react';
 
-const Product = ({ name, images, description, price }) => {
+const Product = ({ name, images, description, price }) => {                                                                                                          
   const [currentIndex, setCurrentIndex] = useState(0);
   useEffect(() => {
     if (!images || images.length === 0) return;
