@@ -119,3 +119,6 @@ In this milestone, we created an API endpoint to filter data by email from Mongo
 In this milestone we learned how to implement the Edit Feature for the My Products Page, including designing an edit form with pre-filled product details, handling form submissions, and making API requests to update the backend database.
 
 The Key features of the form are - Name of product , its description , price , etc... and also a file upload feature to upload the pictures of the product.
+
+## Milestone 14: Project Overview -
+In this milestone we learned how to implement the Delete feature for my_products Page.
