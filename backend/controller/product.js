@@ -19,7 +19,7 @@ const validateProductData = (data) => {
     return errors;
 };
 
-router.post('/product', pupload.array('images', 10), async (req, res) => {
+router.post('/create-product', pupload.array('images', 10), async (req, res) => {
     console.log("HEllos")
     const { name, description, category, tags, price, stock, email } = req.body;
         // Map uploaded files to accessible URLs
