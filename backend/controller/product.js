@@ -265,6 +265,10 @@ router.get('/cartproducts', async (req, res) => {
         console.error('Server error:', err);
         res.status(500).json({ error: 'Server Error' });
     }
+
+
+
 });
+
 
 module.exports = router;
