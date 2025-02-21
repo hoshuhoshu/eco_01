@@ -1,14 +1,15 @@
-# eco_01
 
-E-commerce Project - Milestone 1
-This document outlines the progress made in Milestone 1 of our e-commerce project. This milestone focused on setting up the basic MERN (MongoDB, Express.js, React, Node.js) stack and creating a foundational order page.
+Milestone 17: Project Overview -
+In this milestone we learned the following things -
 
-MERN Stack Demonstration
-This milestone successfully demonstrated the integration of the MERN stack:
+Key learnings -
 
-M - MongoDB: Used as the database to store application data.
-E - Express.js: Implemented as the API, acting as an intermediary between the client (React) and the server (Node.js).
-R - React: Chosen as the client-side framework for building the user interface of the application.
-N - Node.js: Used as the runtime environment for executing the Express.js server.
-Key Accomplishments
-Order Page: A basic order page was created, laying the groundwork for future order management features.
+We have edited the user schema to store cart products .
+We have also implemented an end point to receive the product details and store in database.
+Milestone 18: Project Overview -
+In this milestone we learned the following things -
+
+Key learnings -
+
+We have create an endpoint to receive request from cart page.
+We have also create an backend endpoint to fetch all the products inside cart with user mail.
